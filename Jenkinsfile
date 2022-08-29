@@ -14,7 +14,7 @@ node {
 
 	stage('Deploy') {
 
-		sh ("docker run -d -p 8086:80 dockerjenkinspipelineproj")
+		sh ("docker run -d -p 8087:80 dockerjenkinspipelineproj")
 
 	}
 
